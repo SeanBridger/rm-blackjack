@@ -3,13 +3,13 @@ import React from 'react';
 const getIcon = (suit) => {
   switch(suit) {
     case 'C':
-      return <p>&clubs;</p>;
+      return <span>&clubs;</span>;
     case 'D':
-      return <p>&diams;</p>;
+      return <span>&diams;</span>;
     case 'H':
-      return <p>&hearts;</p>;
+      return <span>&hearts;</span>;
     case 'S':
-      return <p>&spades;</p>;
+      return <span>&spades;</span>;
     default:
       return null;
   }
